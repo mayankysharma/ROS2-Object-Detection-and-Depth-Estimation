@@ -16,7 +16,7 @@ class YOLOv5DepthNode(Node):
 
         # Load YOLOv5 model and move it to the appropriate device
         self.model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True).to(self.device)
-
+        print(f"device{self.device}")
         # Load MiDaS depth estimation model and move it to the appropriate device
         self.midas = torch.hub.load('intel-isl/MiDaS', 'MiDaS_small').to(self.device)
         self.midas_transforms = torch.hub.load('intel-isl/MiDaS', 'transforms').default_transform
