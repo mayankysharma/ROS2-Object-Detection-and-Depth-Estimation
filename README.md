@@ -19,6 +19,7 @@ colcon build
 source install/setup.bash
 ```
 Open New terminal to run this node
+
 ```bash
 source /opt/ros/humble/setup.bash
 cd ros2_ws/
