@@ -33,8 +33,9 @@ Created a new node that is for optimizing inference time which is done by first 
 The goal of this optimization is to make detection task suitable for edge device like Nvidia's Jetson Orin Nano. It is to be noted that this node only detects objects, further features may be added in the future.
 
 #### Steps to run this node
-```
+
 Open New terminal to run this node
+
 ```bash
 source /opt/ros/humble/setup.bash
 cd ros2_ws/
