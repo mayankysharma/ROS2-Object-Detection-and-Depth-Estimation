@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 # ROS2-Object-Detection-and-Depth-Estimation
 Ros2 wrappers for detection person class using yolov5s and get the depth of the detected class using midas model. Also implement TensorRT optimization on yolov8n model for detection task.
 
